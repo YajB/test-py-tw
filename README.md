@@ -43,7 +43,7 @@ Provided your app is registered on the developer's portal, Spark authentication 
 Make the following preparations: 
 
 * Authorization header: The HTTP request must have an Authorization header in the format *Authorization: Basic {base64 code}*. Encode the *app key* and *app secret* values from the app registration's API Keys tab in Base64 and create a single string, separated by a colon (*app key:app secret*). For more information on Base64 encoding, see (http://www.base64encode.org/).
-  * Example: For *app key* = 456 and *app secret* = 789. Base64 encoding *456:789* yields NDU2Ojc4OQ==, The resulting authorization header is *Authorization: Basic NDU2Ojc4OQ==*.
+  * Example: For *app key* = 456 and *app secret* = 789. Base64 encoding *456:789* yields NDU2Ojc4OQ==, and the resulting authorization header is *Authorization: Basic NDU2Ojc4OQ==*.
 
 * Prepare the following parameters: 
   * &code 
@@ -71,7 +71,8 @@ Make the following preparations:
 
 
 ## Exceptions and Exception Handling
-<<this is a placeholder topic>>
+~~this is a placeholder topic~~
+
 ## Using the API  <<I'm not sure why this is here in the first place??>>
 
 To begin, in a browser, open http://localhost:8089/signin.
