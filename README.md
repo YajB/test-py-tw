@@ -69,8 +69,45 @@ Make the following preparations:
 1. Prepare the Authorization header as described in the Before you begin topic.
 2. Call the **Generate a Guest Token API**.
 
+## Response codes
 
-## Exceptions and Exception Handling
+### Guest Token
+
+| Response Code  |Description                              |
+-----------------|------------------------------------------|
+| 200	           |  Success                                 |
+| 400	           |  Invalid header                          |
+| 401	           |  Invalid Authorization header            |
+| 404	           |  Invalid end point                       |
+| 500	           |  Invalid parameter                       |
+| 502	           |  Invalid parameter content               |
+
+
+
+### Access Token
+
+| Error Code  |Description                              |
+-----------------|------------------------------------------|
+| 200	           |  Success                                 |
+| 400	           |  Invalid code parameter or redirect_uri                          |
+| 401	           |  Invalid Authorization header            |
+| 404	           |  Invalid end point                       |
+| 500	           |  Invalid parameter  / code parameter expired                      |
+| 502	           |  Invalid parameter content               |
+
+
+### Refresh Token
+
+| Error Code     |Description                              |
+-----------------|------------------------------------------|
+| 200	           |  Success                                 |
+| 400	           |  Invalid code parameter                  |
+| 401	           |  Invalid Authorization header            |
+| 404	           |  Invalid end point                       |
+
+
+
+## Exceptions and exception handling
 ~ this is a placeholder topic, location in document TBD ~
 
 ## Using the API  
