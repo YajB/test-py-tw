@@ -70,6 +70,7 @@ Make the following preparations:
 2. Call the **Generate a Guest Token API**.
 
 ## Response codes
+This topic summarises the Hypertext Transfer Protocol (HTTP) response and error status codes for Authentication token APIs. 
 
 ### Guest Token
 
