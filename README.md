@@ -17,7 +17,7 @@ An authentication token:
 
 ### Authentication token types
 
-Provided your app is registered on the developer's portal, Spark authentication can use the *app key* and *app secret* allocated during app registration to generate an Access or Guest token:
+Provided your app is registered on the developer's portal, Spark authentication can use the *app key* and *app secret*  allocated during app registration to generate an Access or Guest token:
 
 * *Access* tokens grant expanded access to public data and authenticate the user, giving access to their private-member (Spark-user) data. To generate an access token, the member whose data is being accessed must log in or register with your app.
 
