@@ -35,7 +35,7 @@ Provided your app is registered on the developer's portal, Spark authentication 
 
 4. Create an authentication token. Follow the relevant instructions in the Creating an authentication token topic.
 
-5. Invoke the relevant Authentication API to request a token from the Spark server. When users log in to your app, the handshake protocol begins with a request for the authorization code, the exchange of code for token, token response, and finally, a call to your Spark API.
+5. Invoke the relevant Authentication API to request a token from the Spark server. When users log in to your app, the handshake protocol begins with a request for the authorization code, the exchange of code for token, the token response, and finally, a call to your Spark API.
 
 ## Creating an authentication token
 
@@ -50,7 +50,7 @@ Make the following preparations:
   * &redirect_uri
   * Constants: &grant_type and &response_type
 
-* If you plan to generate the access token in the documentation, ensure that the parameters appear in the Console body section and the base64 code appears in the Console headers section.
+* If you plan to generate the access token in the documentation, ensure that the parameters appear in the Console body section and that the base64 code appears in the Console headers section.
 
 ### To create an access token
 
