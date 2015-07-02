@@ -71,8 +71,9 @@ Make the following preparations:
 
 
 ## Exceptions and Exception Handling
-~~this is a placeholder topic~~
+~ this is a placeholder topic, location in document TBD ~
 
-## Using the API  <<I'm not sure why this is here in the first place??>>
+## Using the API  
+~ I'm not sure why this is here. It's obviously the first step in logging in to the API/app.  ~ 
 
-To begin, in a browser, open http://localhost:8089/signin.
+To start the API, in a browser, open http://localhost:8089/signin.
